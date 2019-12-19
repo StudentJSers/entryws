@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charSet="utf-8" class="next-head" />
+    <title class="next-head">엔트리 작품 만들기 - 자유롭게 나만의 소프트웨어 만들기</title>
+    <link rel="stylesheet" href="lib/entry-js/dist/entry.css" class="next-head" />
+    <link rel="stylesheet" href="lib/entry-tool/dist/entry-tool.css" class="next-head" />
+    <link rel="stylesheet" href="lib/entry-lms/dist/assets/app.css" class="next-head" />
+    <link rel="stylesheet" href="lib/literallycanvas-mobile/lib/css/literallycanvas.css" defer="" class="next-head" />
+    <link rel="stylesheet" href="lib/entry-paint/dist/static/css/entry-paint.css" class="next-head" />
+    <link rel="stylesheet" href="lib/codemirror/addon/hint/show-hint.css" class="next-head" />
+    <link rel="stylesheet" href="lib/codemirror/addon/lint/lint.css" class="next-head" />
+    <link rel="stylesheet" href="lib/codemirror/theme/dracula.css" class="next-head" />
+    <link rel="stylesheet" href="lib/codemirror/addon/hint/show-hint.css" class="next-head" />
+    <link rel="stylesheet" href="lib/codemirror/theme/mbo.css" class="next-head" />
+    <link rel="stylesheet" href="lib/codemirror/theme/neo.css" class="next-head" />
+    <link rel="preload" href="_next/static/ouakdnFKD0mXnhD3V8Mry/pages/ws.js" as="script" />
+    <link rel="preload" href="_next/static/ouakdnFKD0mXnhD3V8Mry/pages/_app.js" as="script" />
+    <link rel="preload" href="_next/static/ouakdnFKD0mXnhD3V8Mry/pages/_error.js" as="script" />
+    <link rel="preload" href="_next/static/runtime/webpack-26fc17fc5e4b18b61208.js" as="script" />
+    <link rel="preload" href="_next/static/chunks/commons.f046647b99c99d992bd3.js" as="script" />
+    <link rel="preload" href="_next/static/chunks/styles.30d2e97814cd94f88ad2.js" as="script" />
+    <link rel="preload" href="_next/static/runtime/main-218f4505c9ace9d2cdd2.js" as="script" />
+    <link rel="stylesheet" href="_next/static/css/styles.dd08e9a1.chunk.css" />
+    <link rel="stylesheet" href="css/fonts_mobile.css" />
+    <link rel="stylesheet" href="css/common_fonts_mobile.css" />
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, user-scalable=no" />
+    <meta name="csrf-token" content="WT2KMo3H-oV2rfKrH7nQ1KzKYN_b2e9JTsrg" />
+    <meta name="keywords" content="엔트리 만들기, 프로그래밍, 코딩, 소프트웨어" />
+    <meta name="description" content="작품 만들기의 블록 코딩 방식을 통하여 자신만의 소프트웨어를 프로그래밍하고 공유해보세요. 게임, 애니메이션, 미디어아트 등 다양한 프로그램을 만들 수 있습니다." />
+    <meta property="og:title" content="엔트리 작품 만들기 - 자유롭게 나만의 소프트웨어 만들기" />
+    <meta property="og:description" content="작품 만들기의 블록 코딩 방식을 통하여 자신만의 소프트웨어를 프로그래밍하고 공유해보세요. 게임, 애니메이션, 미디어아트 등 다양한 프로그램을 만들 수 있습니다." />
+    <meta property="og:image" content="https://playentry.org/img/assets/og-entry.png" />
+    <link href="img/icons/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <script>
+        (function() {
+            var ua = navigator.userAgent.toLowerCase();
+
+            if (/msie/gi.test(ua) || typeof Node === 'undefined') {
+                window.location.href = '/ie';
+            }
+        })();
+    </script>
+    <script type="text/javascript" src="js/lang/ko.js"></script>
+    <script>
+        (function() {
+            var ga = document.createElement('script');
+            ga.setAttribute('src', "/js/analytics.js");
+            var lcs = document.createElement('script');
+            lcs.setAttribute('src', "/js/lcslog.js");
+            document.head.appendChild(ga);
+            document.head.appendChild(lcs);
+        })();
+    </script>
+</head>
+
+<body>
+<div id="__next">
+    <div data-reactroot="">
+        <div class="ws ">
+            <div>
+                <header class="common_gnb">
+                    <h1 class="logo logo_gnb"><a href="index.html">Entry</a></h1>
+                    <div class="srch_box">
+                        <input type="text" id="common_srch" name="common_srch" value="" />
+                    </div>
+                    <div class="group_box">
+                        <div class="group_inner">
+                            <div class="work_space"><a title="언어 선택" class="btn_work_space btn_workspace_lang  block"><span class="blind">언어 선택</span></a></div>
+                            <div class="work_space"><a title="파일" class="btn_work_space btn_workspace_file "><span class="blind">파일</span></a></div>
+                            <div class="work_space"><a title="저장하기" class="btn_work_space btn_workspace_save  "><span class="blind">저장하기</span></a></div>
+                            <div class="work_space"><a title="도움말" class="btn_work_space btn_workspace_help "><span class="blind">도움말</span></a></div>
+                            <div class="work_space print"><a title="인쇄" class="btn_workspace_print"><span class="blind">인쇄</span></a></div>
+                        </div>
+                        <div class="group_inner">
+                            <div class="work_space"><a title="입력 취소" class="btn_workspace_undo disabled"><span class="blind">입력 취소</span></a><a title="다시 실행" class="btn_workspace_redo disabled"><span class="blind">다시 실행</span></a></div>
+                        </div>
+                        <div class="group_inner">
+                            <div class="work_space"><a class="link_workspace_text text_work_space  ">기본형</a></div>
+                        </div>
+                        <div class="group_inner">
+                            <div class="work_space"><a class="link_workspace_text">로그인</a><a class="link_workspace_text">회원가입</a></div>
+                        </div>
+                        <div class="lang_select_box"><a class="select_link ico_white_select_arr ">한국어</a>
+                            <div class="tooltip_box"></div>
+                        </div>
+                    </div>
+                </header>
+                <input type="file" class="uploadInput" accept=".ent" />
+                <div class="workspace"></div>
+            </div>
+        </div>
+        <script type="text/javascript" src="lib/PreloadJS/lib/preloadjs-0.6.0.min.js"></script>
+        <script type="text/javascript" src="lib/EaselJS/lib/easeljs-0.8.0.min.js"></script>
+        <script type="text/javascript" src="lib/SoundJS/lib/soundjs-0.6.0.min.js"></script>
+        <script type="text/javascript" src="lib/SoundJS/lib/flashaudioplugin-0.6.0.min.js"></script>
+        <script type="text/javascript" src="lib/lodash/dist/lodash.min.js"></script>
+        <script type="text/javascript" src="lib/jquery/jquery.min.js"></script>
+        <script type="text/javascript" src="lib/jquery-ui/ui/minified/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="lib/velocity/velocity.min.js"></script>
+        <script type="text/javascript" src="lib/codemirror/lib/codemirror.js"></script>
+        <script type="text/javascript" src="lib/codemirror/addon/hint/show-hint.js"></script>
+        <script type="text/javascript" src="lib/codemirror/addon/lint/lint.js"></script>
+        <script type="text/javascript" src="lib/codemirror/addon/selection/active-line.js"></script>
+        <script type="text/javascript" src="lib/codemirror/mode/javascript/javascript.js"></script>
+        <script type="text/javascript" src="lib/codemirror/addon/hint/javascript-hint.js"></script>
+        <script type="text/javascript" src="js/jshint.js"></script>
+        <script type="text/javascript" src="lib/fuzzy/lib/fuzzy.js"></script>
+        <script type="text/javascript" src="js/textmode/python/python.js"></script>
+        <script type="text/javascript" src="lib/entry-js/extern/util/filbert.js"></script>
+        <script type="text/javascript" src="lib/entry-js/extern/util/CanvasInput.js"></script>
+        <script type="text/javascript" src="lib/entry-js/extern/util/ndgmr.Collision.js"></script>
+        <script type="text/javascript" src="lib/entry-js/extern/util/handle.js"></script>
+        <script type="text/javascript" src="lib/entry-js/extern/util/bignumber.min.js"></script>
+        <script type="text/javascript" src="lib/socket.io-client/socket.io.js"></script>
+        <script type="text/javascript" src="lib/entry-js/extern/util/static.js"></script>
+        <script type="text/javascript" src="lib/react/react.js"></script>
+        <script type="text/javascript" src="lib/react/react-dom.js"></script>
+        <script type="text/javascript" src="lib/entry-lms/dist/assets/app.js"></script>
+        <script type="text/javascript" src="lib/entry-tool/dist/entry-tool.js"></script>
+        <script type="text/javascript" src="lib/entry-paint/dist/static/js/entry-paint.js"></script>
+        <script type="text/javascript" src="lib/literallycanvas-mobile/lib/js/literallycanvas.js"></script>
+        <script type="text/javascript" src="lib/entry-js/dist/entry.js"></script>
+        <script>
+            (function() {
+                var playFunc = createjs.Sound.play;
+
+                createjs.Sound.play = function(a, b) {
+                    if (b) {
+                        b.pan = 0.01;
+                    } else {
+                        b = {
+                            pan: 0.01
+                        };
+                    }
+
+                    return playFunc(a, b);
+                };
+            })();
+        </script>
+    </div>
+</div>
+<script>
+    __NEXT_DATA__ = {
+        "props": {
+            "isServer": true,
+            "initialState": {
+                "common": {
+                    "lang": "ko",
+                    "isMobile": false,
+                    "mode": "workspace",
+                    "student": null,
+                    "group": null,
+                    "canUseProject": true,
+                    "isCaptchaShow": false,
+                    "captchaImageUrl": "",
+                    "captchaKey": "",
+                    "seo": {
+                        "title": "엔트리 작품 만들기 - 자유롭게 나만의 소프트웨어 만들기",
+                        "description": "작품 만들기의 블록 코딩 방식을 통하여 자신만의 소프트웨어를 프로그래밍하고 공유해보세요. 게임, 애니메이션, 미디어아트 등 다양한 프로그램을 만들 수 있습니다.",
+                        "keywords": "엔트리 만들기, 프로그래밍, 코딩, 소프트웨어",
+                        "og_title": "엔트리 작품 만들기 - 자유롭게 나만의 소프트웨어 만들기",
+                        "og_description": "작품 만들기의 블록 코딩 방식을 통하여 자신만의 소프트웨어를 프로그래밍하고 공유해보세요. 게임, 애니메이션, 미디어아트 등 다양한 프로그램을 만들 수 있습니다.",
+                        "og_image": "https://playentry.org/img/assets/og-entry.png",
+                        "jp": {
+                            "title": "エントリーで作品制作 - あなただけのソフトウェアを自由に作ろう",
+                            "description": "作品制作のブロックコーディング方式であなただけのソフトウェアをプログラミングして共有してみましょう。ゲーム・アニメーション・メディアアートなど、様々なプログラムを作ることができます。",
+                            "keywords": "エントリー制作、プログラミング、コーディング、ソフトウェア",
+                            "og_title": "エントリーで作品制作 - あなただけのソフトウェアを自由に作ろう",
+                            "og_description": "作品制作のブロックコーディング方式であなただけのソフトウェアをプログラミングして共有してみましょう。ゲーム・アニメーション・メディアアートなど、様々なプログラムを作ることができます。",
+                            "og_image": "https://playentry.org/img/assets/og-entry.png"
+                        }
+                    },
+                    "useragent": {
+                        "isYaBrowser": false,
+                        "isAuthoritative": false,
+                        "isMobile": false,
+                        "isTablet": false,
+                        "isiPad": false,
+                        "isiPod": false,
+                        "isiPhone": false,
+                        "isAndroid": false,
+                        "isBlackberry": false,
+                        "isOpera": false,
+                        "isIE": false,
+                        "isEdge": false,
+                        "isIECompatibilityMode": false,
+                        "isSafari": false,
+                        "isFirefox": false,
+                        "isWebkit": false,
+                        "isChrome": false,
+                        "isKonqueror": false,
+                        "isOmniWeb": false,
+                        "isSeaMonkey": false,
+                        "isFlock": false,
+                        "isAmaya": false,
+                        "isPhantomJS": false,
+                        "isEpiphany": false,
+                        "isDesktop": false,
+                        "isWindows": false,
+                        "isLinux": false,
+                        "isLinux64": false,
+                        "isMac": false,
+                        "isChromeOS": false,
+                        "isBada": false,
+                        "isSamsung": false,
+                        "isRaspberry": false,
+                        "isBot": "wget",
+                        "isCurl": false,
+                        "isAndroidTablet": false,
+                        "isWinJs": false,
+                        "isKindleFire": false,
+                        "isSilk": false,
+                        "isCaptive": false,
+                        "isSmartTV": false,
+                        "isUC": false,
+                        "isFacebook": false,
+                        "isAlamoFire": false,
+                        "isElectron": false,
+                        "silkAccelerated": false,
+                        "browser": "Wget",
+                        "version": "1.20.3",
+                        "os": "unknown",
+                        "platform": "unknown",
+                        "geoIp": {},
+                        "source": "Wget/1.20.3 (darwin19.0.0)"
+                    }
+                },
+                "form": {},
+                "modal": {
+                    "progress": {
+                        "isShow": false,
+                        "data": {
+                            "type": "",
+                            "title": "",
+                            "description": ""
+                        }
+                    }
+                },
+                "popup": {
+                    "type": "",
+                    "visible": false,
+                    "page": 0
+                },
+                "join": {
+                    "job": "student"
+                },
+                "lecture": {
+                    "basicProject": null,
+                    "doneProject": null,
+                    "studyIndex": 0,
+                    "studyStatus": null,
+                    "lecture": null,
+                    "homework": null
+                }
+            },
+            "initialProps": {
+                "pageProps": {
+                    "isServer": true,
+                    "wsMode": "workspace"
+                }
+            }
+        },
+        "page": "/ws",
+        "query": {},
+        "buildId": "ouakdnFKD0mXnhD3V8Mry"
+    };
+    __NEXT_LOADED_PAGES__ = [];
+    __NEXT_REGISTER_PAGE = function(r, f) {
+        __NEXT_LOADED_PAGES__.push([r, f])
+    }
+</script>
+<script async="" id="__NEXT_PAGE__/ws" src="_next/static/ouakdnFKD0mXnhD3V8Mry/pages/ws.js"></script>
+<script async="" id="__NEXT_PAGE__/_app" src="_next/static/ouakdnFKD0mXnhD3V8Mry/pages/_app.js"></script>
+<script async="" id="__NEXT_PAGE__/_error" src="_next/static/ouakdnFKD0mXnhD3V8Mry/pages/_error.js"></script>
+<script src="_next/static/runtime/webpack-26fc17fc5e4b18b61208.js" async=""></script>
+<script src="_next/static/chunks/commons.f046647b99c99d992bd3.js" async=""></script>
+<script src="_next/static/chunks/styles.30d2e97814cd94f88ad2.js" async=""></script>
+<script src="_next/static/runtime/main-218f4505c9ace9d2cdd2.js" async=""></script>
+</body>
+
+</html>
